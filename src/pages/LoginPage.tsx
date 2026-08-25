@@ -51,14 +51,6 @@ export default function LoginPage() {
         </p>
       </div>
 
-      {/* Admin hint */}
-      <div className="bg-blue-50 border border-blue-100 rounded-xl px-3 py-2.5 mb-4 flex items-start gap-2">
-        <Shield size={14} className="text-blue-400 flex-shrink-0 mt-0.5" />
-        <p className="text-xs text-blue-600 leading-relaxed">
-          <span className="font-bold">Admin:</span> admin@sigad.com · senha: admin123
-        </p>
-      </div>
-
       <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5 flex flex-col gap-4">
         {error && (
           <div className="bg-red-50 border border-red-200 rounded-xl px-3 py-2.5 text-xs text-red-600 font-medium">
